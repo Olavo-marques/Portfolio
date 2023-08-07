@@ -12,6 +12,7 @@ export const Img_Profile_Container = styled.img`
 /* display:flex; */
 /* justify-content: space-around; */
 width: 10%;  
+margin-right: 40px;
 /* height: ;   */
 /* margin-top: 50px; */
 /* margin-bottom: 50px; */
@@ -25,8 +26,26 @@ justify-content: space-around;
 width: 40%;  
 margin-top: 50px;
 margin-bottom: 50px;
-border-top: 1px solid #1E62AB;
+/* border-top: 1px solid #1E62AB; */
 border-bottom: 1px solid #1E62AB;
+`
+export const Div_Hello = styled.div`
+display:flex;
+justify-content: center;
+width: 80%;  
+/* margin-top: 50px; */
+/* margin-bottom: 50px; */
+/* border-top: 1px solid #1E62AB; */
+/* border-bottom: 1px solid #1E62AB; */
+`
+export const Div_Welcome = styled.div`
+/* display:flex; */
+/* justify-content: space-around; */
+/* width: 40%;   */
+margin-right: 80px;
+/* margin-bottom: 50px; */
+/* border-top: 1px solid #1E62AB; */
+/* border-bottom: 1px solid #1E62AB; */
 `
 export const Button_Text_About = styled.button`
 color: #FEFEFC	; 
@@ -47,6 +66,10 @@ export const Img_Project = styled.img`
 height: 50vh;
 width: 50vw;  
 border-radius: 10px;
+cursor: pointer;
+&:hover {
+    transform: scale(1.1);
+  }
 `
 export const P_Description = styled.p`
 /* height: 50vh; */
@@ -60,4 +83,6 @@ display:flex;
 flex-wrap: wrap;
 justify-content: center;
 /* align-items: center; */
+/* border-top: 1px solid #1E62AB; */
+/* border-bottom: 1px solid #1E62AB; */
 `
