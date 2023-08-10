@@ -130,6 +130,7 @@ border-radius: 10px;
 export const Img_Icone_Linkedin = styled.img`
 width: 20px;
 height: 20px;
+margin-right: 10px;
 `
 export const Img_Icone_Whatsapp = styled.img`
 width: 20px;
@@ -141,11 +142,18 @@ width: 20px;
 height: 20px;
 margin-right: 10px;
 `
+export const Container_Contact = styled.div`
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 70px;
+`
 export const Div_Contact = styled.div`
 display: flex;
 flex-direction: row;
 /* justify-content: center; */
 align-items: center;
+margin: 10px;
 `
 export const P_Contatc = styled.p`
 /* margin-bottom: 10px; */
