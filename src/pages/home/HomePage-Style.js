@@ -41,6 +41,10 @@ width: 80%;
 export const H2_Projects = styled.h2`
 color: #1E62AB;
 border-bottom: #1E62AB 1px solid;
+font-family: "Source Sans Pro", sans-serif;
+font-style: normal;
+font-size: 28px;
+font-weight: 28px;
 &:hover {
     /* transform: scale(1.); */
     color: black;
@@ -50,10 +54,22 @@ export const Div_Welcome = styled.div`
 /* display:flex; */
 /* justify-content: space-around; */
 /* width: 40%;   */
-margin-right: 80px;
+/* margin-right: 80px; */
 /* margin-bottom: 50px; */
 /* border-top: 1px solid #1E62AB; */
 /* border-bottom: 1px solid #1E62AB; */
+`
+export const H1_Presentation = styled.h1`
+font-family: "Source Sans Pro", sans-serif;
+font-style: normal;
+/* font-size: 28px; */
+/* font-weight: 28px; */
+`
+export const H3_Presentation = styled.h3`
+font-family: "Source Sans Pro", sans-serif;
+font-style: normal;
+/* font-size: 28px; */
+/* font-weight: 28px; */
 `
 export const Button_Text_About = styled.button`
 color: #FEFEFC	; 
@@ -85,6 +101,10 @@ export const H3_Title = styled.h3`
 margin-bottom: 30px;
 color: #1E62AB;
 border-bottom: #1E62AB 1px solid;
+font-family: "Source Sans Pro", sans-serif;
+font-style: normal;
+font-size: 28px;
+font-weight: 28px;
 `
 export const P_Description = styled.p`
 /* height: 50vh; */
@@ -92,7 +112,10 @@ width: 50vw;
 margin-top: 30px;
 /* padding-left: 10px; */
 margin-bottom: 20px;
-
+font-family: "Source Sans Pro", sans-serif;
+font-style: normal;
+font-size: 18px;
+font-weight: 28px;
 `
 export const Div_Information_Projects = styled.div`
 display:flex;
